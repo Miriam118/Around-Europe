@@ -1,0 +1,58 @@
+header {
+   color: white;
+   text-align: center;
+   background: <img src="IMG_0819.jpg">
+   background-size: cover;
+   margin: 40px, 0 0 0;
+   background-position: center;
+   fontfamily: helvetica;
+ }
+ h1 {
+   font-size: 75px;
+ }
+ body {
+    text-align: left;
+    background: black;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: helvetica;
+}
+p {
+    text-align: center;
+    font-size: 22px;
+}
+  input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+      }
+  input[type="submit"] {
+  background: green;
+  color: white;
+      }
+  img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  size: 60px;
+}
+  ul {
+    padding: 10px;
+    background-color: green;
+  }
+  li {display: inline;
+          padding: 0px 10px 0px 10px;
+      }
+  a {
+    color: white;
+  }
+  article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  @media (max-width: 500px) {
+    div{
+      text-align: left;
+    }
