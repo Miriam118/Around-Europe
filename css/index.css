@@ -25,7 +25,7 @@
 }
 
 a {
-  color: white;
+    color: white;
 }
 
 a:hover {
@@ -51,54 +51,113 @@ a:hover {
 }
 
 body {
-   background: black;
-   color: white;
-}
-/* header {
-   color: white;
-   text-align: center;
-   background: <img src="img_0819.jpg">
-   background-size: cover;
-   margin: 40px, 0 0 0;
-   background-position: center;
-   fontfamily: helvetica;
- }
- h1 {
-   font-size: 75px;
- }
- body {
-    text-align: left;
     background: black;
-    background-size: cover;
-    background-position: center;
     color: white;
-    font-family: helvetica;
+}
+
+.leaves {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 74px;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.profile-and-title {
+    position: relative;
+    top: 65px;
+
+}
+
+.profile {
+    margin: 0 auto;
+    display: block;
+    border: 10px solid black;
+}
+
+.title-container {
+    position: relative;
+    bottom: 76px;
+    text-align: center;
+    color: white;
+}
+
+.main-title {
+    font-family: Helvetica;
+    font-size: 80px;
+    -webkit-text-stroke: 4px black;
+}
+
+.tagline {
+    font-size: 42px;
+    position: relative;
+    bottom: 22px;
+}
+
+.about {
+    margin: auto;
+    width: 65%;
+}
+
+.about-text {
+    background-color: black;
+    font-size: 20px;
+    text-align: center;
+    margin: 6px 0;
+}
+
+
+
+
+
+
+
+/* header {
+color: white;
+text-align: center;
+background: <img src="img_0819.jpg">
+background-size: cover;
+margin: 40px, 0 0 0;
+background-position: center;
+fontfamily: helvetica;
+}
+h1 {
+font-size: 75px;
+}
+body {
+text-align: left;
+background: black;
+background-size: cover;
+background-position: center;
+color: white;
+font-family: helvetica;
 }
 p {
-    text-align: center;
-    font-size: 22px;
+text-align: center;
+font-size: 22px;
 }
 input {
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
-      }
+border: 0;
+padding: 10px;
+font-size: 18px;
+}
 input[type="submit"] {
-  background: green;
-  color: white;
-      }
+background: green;
+color: white;
+}
 img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
-  size: 60px;
+margin: 40px 0px 0px 0px;
+border: 7px solid white;
+border-radius: 20px;
+size: 60px;
 }
 a {
-    color: white;
-  }
+color: white;
+}
 article {
-    max-width: 500px;
-    padding: 20px;
-    margin: 0 auto;
-  }
-  @media (max-width: 500px) {}
+max-width: 500px;
+padding: 20px;
+margin: 0 auto;
+}
+@media (max-width: 500px) {}
