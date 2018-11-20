@@ -22,7 +22,7 @@
 
 .navbar-inverse {
     height: 75px;
-    margin-bottom: 0px; // Overwrite bootstraps margin
+    margin-bottom: 0px;  Overwrite bootstraps margin
 }
 
 a {
@@ -34,9 +34,26 @@ a:hover {
     text-decoration: none;
 }
 
+a:focus {
+    color: white;
+    text-decoration: none;
+}
+
 .btn-default:hover {
     background-color: green;
     border-color: #222;
+    color: white;
+}
+
+.btn-default:focus {
+    background-color: initial;
+    outline: none;
+    color: white;
+}
+
+.btn-default:active {
+    background-color: initial;
+    outline: none;
     color: white;
 }
 
@@ -59,8 +76,6 @@ body {
 .leaves {
     background-image: url("../img/background.jpg");
     background-size: cover;
-    position: absolute;
-    top: 74px;
     opacity: 0.8;
     width: 100%;
 }
@@ -99,13 +114,7 @@ body {
 .about {
     margin: auto;
     width: 65%;
-}
-
-.about-text {
-    background-color: black;
-    font-size: 20px;
     text-align: center;
-    margin: 6px 0;
 }
 
 .about-text {
@@ -146,10 +155,12 @@ body {
 
 .float-left {
     float: left;
+    padding-right: 30px;
 }
 
 .float-right {
     float: right;
+    padding-left: 30px;
 }
 
 .blog-text {
@@ -169,14 +180,40 @@ body {
     margin-bottom: 30px;
 }
 
-.cactus {
-    padding-right: 30px;
-}
-
-.retiro {
-    padding-left: 30px;
-}
-
 .signature {
     text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 8px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
