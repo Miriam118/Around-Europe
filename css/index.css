@@ -180,6 +180,14 @@ body {
     margin-bottom: 30px;
 }
 
+.img-container-row-of-four img {
+    padding: 0 6px;
+    width: 25%;
+    float: left;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
 .signature {
     text-align: center;
 }
@@ -216,4 +224,8 @@ body {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.gallery-hr {
+    margin:20px 30px 40px 30px;
 }
