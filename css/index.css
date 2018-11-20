@@ -1,147 +1,176 @@
-header {
-   color: white;
-   text-align: center;
-   background: <img src="img_0819.jpg">
-   background-size: cover;
-   margin: 40px, 0 0 0;
-   background-position: center;
-   fontfamily: helvetica;
- }
- h1 {
-   font-size: 75px;
- }
- body {
-    text-align: left;
-    background: black;
-    background-size: cover;
-    background-position: center;
+.navbar-right-items {
+    float: right;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.navbar-btn {
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 18px;
     color: white;
-    font-family: helvetica;
+    background-color: #222;
+    border-color: #222;
 }
-p {
-    text-align: center;
-    font-size: 22px;
+
+.navbar.navbar-inverse .navbar-brand {
+    font-size: 55px;
+    font-family: 'Marck Script', cursive;
+    color: #7dd263;
+    margin-top: 10px;
 }
-input {
-  border: 0;
-  padding: 10px;
-  font-size: 18px;
-      }
-input[type="submit"] {
-  background: green;
-  color: white;
-      }
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
-  size: 60px;
+
+.navbar-inverse {
+    height: 75px;
+    margin-bottom: 0px; // Overwrite bootstraps margin
 }
+
 a {
     color: white;
-  }
-article {
-    max-width: 500px;
-    padding: 20px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-default:hover {
+    background-color: green;
+    border-color: #222;
+    color: white;
+}
+
+.open>.dropdown-menu {
+    top: 45px;
+    width: 150px;
+    min-width: unset;
+    font-size: 16px;
+}
+
+.dropdown-menu>li>a {
+    padding: 6px 18px;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.leaves {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 74px;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.profile-and-title {
+    position: relative;
+    top: 65px;
+
+}
+
+.profile {
     margin: 0 auto;
-  }
-  @media (max-width: 500px) {}
-
-  .divnavbar{
-    }
-    .navbar {
-      overflow: hidden;
-      background-color: #333;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
-
-  .dropdown {
-      float: left;
-      overflow: hidden;
-  }
-
-  .dropdown .dropbtn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-  }
-
-  .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: green;
-  }
-
-  .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-  }
-
-  .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-  }
-
-  .dropdown-content a:hover {
-      background-color: #ddd;
-  }
-
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-  .navigation nav {
-  display: flex;
-  justify-content: center;
-
-  background-color: #333333;
+    display: block;
+    border: 10px solid black;
 }
-/* ul {
-  display: flex;
-  flex-flow: row wrap;
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border-radius: 5px;
+.title-container {
+    position: relative;
+    bottom: 76px;
+    text-align: center;
+    color: white;
 }
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  border-bottom: none;
+
+.main-title {
+    font-family: Helvetica;
+    font-size: 80px;
+    -webkit-text-stroke: 4px black;
 }
-li a:hover {
-  background-color: #ddd;
+
+.tagline {
+    font-size: 42px;
+    position: relative;
+    bottom: 22px;
 }
-.dropdown {
+
+.about {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 18px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    line-height: 3;
+}
+
+.blog-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+}
+
+.blog-date {
+    font-size: 30px;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.left-line {
     float: left;
-    overflow: hidden;
+    width: 35%;
+    margin-left: 50px;
 }
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial, Helvetica, sans-serif;
+
+.right-line {
+    float: right;
+    width: 35%;
+    margin-right: 50px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.blog-text {
+    font-size: 20px;
+    padding: 35px;
+}
+
+.blog-paragraph {
+    margin: 20px 0;
+}
+
+.img-container-row-of-three img {
+    padding: 0 6px;
+    width: 33%;
+    float: left;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.cactus {
+    padding-right: 30px;
+}
+
+.retiro {
+    padding-left: 30px;
+}
+
+.signature {
+    text-align: center;
 }
