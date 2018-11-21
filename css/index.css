@@ -172,8 +172,10 @@ body {
 }
 
 .blog-text {
-    font-size: 20px;
+    font-size: 24px;
     padding: 35px;
+    font-family: 'Aref Ruqaa', serif;
+    letter-spacing: 1px;
 }
 
 .blog-paragraph {
