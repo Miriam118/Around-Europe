@@ -14,9 +14,9 @@
 }
 
 .navbar.navbar-inverse .navbar-brand {
-    font-size: 55px;
-    font-family: 'Marck Script', cursive;
-    color: #7dd263;
+    font-size: 45px;
+    font-family: 'Cinzel', cursive;
+    color: #8fbf3c;
     margin-top: 10px;
 }
 
@@ -40,7 +40,7 @@ a:focus {
 }
 
 .btn-default:hover {
-    background-color: green;
+    background-color: #8fbf3c;
     border-color: #222;
     color: white;
 }
@@ -94,21 +94,27 @@ body {
 
 .title-container {
     position: relative;
-    bottom: 76px;
+    bottom: 66px;
     text-align: center;
     color: white;
 }
 
 .main-title {
-    font-family: Helvetica;
+    font-family: 'Cinzel';
     font-size: 80px;
-    -webkit-text-stroke: 4px black;
+    background-color: black;
+    color: white;
+    padding: 0 12px;
 }
 
 .tagline {
-    font-size: 42px;
+    font-family: 'Montserrat';
+    font-size: 36px;
     position: relative;
     bottom: 22px;
+    background-color: black;
+    color: white;
+    padding:0 8px;
 }
 
 .about {
@@ -119,12 +125,14 @@ body {
 
 .about-text {
     font-size: 18px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     letter-spacing: 2px;
     text-transform: uppercase;
     background-color: black;
     color: white;
     line-height: 3;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .blog-title {
